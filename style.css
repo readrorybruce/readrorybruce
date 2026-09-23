@@ -262,3 +262,32 @@ footer {
 a {
     color: black;
 }
+
+
+
+.hero-links {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.x-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    color: #202020;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 0.95rem;
+}
+
+.x-link svg {
+    width: 22px;
+    height: 22px;
+    fill: currentColor;
+}
+
+.x-link:hover {
+    opacity: 0.65;
+}
